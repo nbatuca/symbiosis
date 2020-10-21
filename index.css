@@ -1,0 +1,31 @@
+body, html{
+    height: 100%;
+}
+
+.plpr{
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.backNuvem{
+    background-image:url('images/Fundo.png');
+
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pt-5{
+    padding-top: 5%;
+}
+
+.border-bottom{
+    border-bottom: 5px solid rgb(250, 250, 43)!important;
+}
+
+@media (min-width: 768px){
+    .px-md-4 {
+        padding-left: 5.5rem!important;
+    }
+}
